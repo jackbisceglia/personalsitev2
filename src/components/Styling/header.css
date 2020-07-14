@@ -1,0 +1,39 @@
+.navbar {
+    position: fixed;
+    background-color: #1d2125;
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.navStyle {
+    color: white;
+    text-decoration: none;
+    font-size: .75rem;
+    font-weight: 200;
+    margin: 0 15px;
+    transition: 0.5s;
+    background-color: transparent;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.navStyle:hover{
+    /* color: rgba(255, 255, 255, 0.65); */
+    color: rgb(62, 120, 255);
+}
+
+
+@media (max-width: 26.25em) {
+    .navbar{
+        height: 3vh;
+    }
+    .navStyle{
+        font-size: .65rem;
+        margin: 0 10px;
+    }
+}

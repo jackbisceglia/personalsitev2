@@ -1,0 +1,43 @@
+.card {
+    padding: 0.5rem 0rem;
+    width: 16rem;
+    height: 15rem;
+    /* background-color: rgb(228, 228, 228); */
+    background: linear-gradient(180deg, rgb(236, 236, 236) 0%, rgba(196, 196, 196, 0) 100%);
+    margin: 1rem 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, .25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card span {
+    font-weight: 600;
+}
+
+.icon {
+    max-width: 20%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-title {
+    margin-top: .75rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2F2F2F;
+    /* border: 1px solid black; */
+
+}
+
+.line {
+    /* border: 1px solid black; */
+    margin: .2rem 0.75rem;
+    font-size: .75rem;
+    line-height: 1rem;
+}
