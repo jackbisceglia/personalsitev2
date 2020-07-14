@@ -1,6 +1,6 @@
 import React from 'react'
 import '../global.css'
-import resume from '../../public/static/resume.pdf'
+import resume from './static/resume.pdf'
 
 export default function IconBar(props) {
 
