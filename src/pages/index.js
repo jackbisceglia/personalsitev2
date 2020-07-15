@@ -96,7 +96,7 @@ const IndexPage = () => (
         <Project 
           title={'Sort-ify'}
           icon={sortify}
-          description={'A static site written in Javascript that visualizes various sorting algorithms.'}
+          description={'A static site written in Javascript that visualizes various sorting algorithms'}
           url={"https://github.com/jackbisceglia/Sort-ify"}
           livesite={"https://jackbisceglia.github.io/Sort-ify/"}
           blank={true}
@@ -104,7 +104,7 @@ const IndexPage = () => (
         <Project
           title={'PokeQuick'}
           icon={poke}
-          description={'A React App to display Pokemon data pulled from the PokeAPI.'}
+          description={'A React App to display Pokemon data pulled from the PokeAPI'}
           url={"https://github.com/jackbisceglia/ReactPokemonApp"}
           livesite={"https://jackbisceglia.github.io/ReactPokemonApp/"}
           blank={true}
@@ -112,7 +112,7 @@ const IndexPage = () => (
         <Project
           title={'WeatherWizard'}
           icon={weather}
-          description={'A web app written in Python and Flask to display weather information.'}
+          description={'A web app written in Python and Flask to display weather information'}
           url={"https://github.com/jackbisceglia/WeatherWizard"}
           livesite={"#projects"}
           blank={false}

@@ -234,11 +234,11 @@ section {
   }
 
   #home h1 {
-    font-size: 2.5em;
+    font-size: 2em;
   }
 
   #home p {
-      font-size: .7rem;
+      font-size: .6rem;
     }
 
   .break {
@@ -246,6 +246,7 @@ section {
     }
 
   #about {
+    padding-top: 3vh;
     height: auto;
   }
 
@@ -254,12 +255,14 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: auto;
+    text-align: center;
   }
 
   #projects {
+    padding-top: 3vh;
     height: auto;
   }
-
   .photo {  
     margin: .5rem .5rem;
     width: 6rem;
@@ -275,5 +278,7 @@ section {
     background-position: bottom;
     background-size: 65%;
     height: auto;
+    height: 50vh;
+    padding: 1.5vh;
   }
 }

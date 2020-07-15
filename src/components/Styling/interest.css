@@ -41,3 +41,10 @@
     font-size: .75rem;
     line-height: 1rem;
 }
+
+@media (max-width: 26.25em) {
+    .card {
+        margin-top: 1rem;
+        height: 14rem;
+    }
+}
