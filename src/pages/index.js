@@ -34,7 +34,7 @@ const IndexPage = () => (
       <h1 className="welcome" style={{marginTop: '10px', marginBottom: '0'}}>Welcome!</h1>
       <div className="introduction">
         <div className="photo"></div>
-        <p>Hi, my name is Jack! I'm a Freshman at UMass Amherst majoring in Computer Science and Mathematics, and I'm currently seeking Software Engineering and Full Stack Internship positions. I'm very passionate about my school work and software, and in my free time I love watching basketball and making music.</p>
+        <p>Hi, my name is Jack! I'm a Sophomore at UMass Amherst majoring in Computer Science and Mathematics, and I'm currently seeking Software Engineering and Full Stack Internship positions. I'm very passionate about my school work and software, and in my free time I love watching basketball and making music.</p>
       </div>
       <div className="breakline"></div>
 
