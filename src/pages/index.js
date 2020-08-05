@@ -92,7 +92,7 @@ const IndexPage = () => (
           description={'A full-stack social polling app built in Typescript React, Express, and PSQL'}
           url={"https://github.com/jackbisceglia/battls"}
           livesite={"#projects"}
-          blank={false}
+          blank={true}
         />
         <Project 
           title={'Trello Clone'}
