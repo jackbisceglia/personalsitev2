@@ -90,7 +90,7 @@ const IndexPage = () => (
           title={'Battls'}
           icon={battls}
           description={'A full-stack social polling app built in Typescript React, Express, and PSQL'}
-          url={"https://github.com/jackbisceglia/WeatherWizard"}
+          url={"https://github.com/jackbisceglia/battls"}
           livesite={"#projects"}
           blank={false}
         />
