@@ -12,6 +12,7 @@ import weather from '../images/ProjectImgs/weathermockup.png';
 import fractal from '../images/ProjectImgs/fractalmock.png';
 import trello from '../images/ProjectImgs/tcmock.png';
 import poke from '../images/ProjectImgs/pokemock.png';
+import battls from '../images/ProjectImgs/battls.png';
 
 import '../global.css'
 
@@ -46,7 +47,7 @@ const IndexPage = () => (
           specs={[
           {
             name : 'Front-End',
-            rest : 'React, Typescript, Javascript'
+            rest : 'React, Typescript, Javascript, Redux'
           },
           {
             name : 'Back-End',
@@ -85,6 +86,14 @@ const IndexPage = () => (
       <h1 className="title">My Projects</h1>
       <h4>Programming projects to work on my technical skills</h4>
       <div className="proj-wrapper">
+        <Project
+          title={'Battls'}
+          icon={battls}
+          description={'A full-stack social polling app built in Typescript React, Express, and PSQL'}
+          url={"https://github.com/jackbisceglia/WeatherWizard"}
+          livesite={"#projects"}
+          blank={false}
+        />
         <Project 
           title={'Trello Clone'}
           icon={trello}
@@ -108,14 +117,6 @@ const IndexPage = () => (
           url={"https://github.com/jackbisceglia/ReactPokemonApp"}
           livesite={"https://jackbisceglia.github.io/ReactPokemonApp/"}
           blank={true}
-        />
-        <Project
-          title={'WeatherWizard'}
-          icon={weather}
-          description={'A web app written in Python and Flask to display weather information'}
-          url={"https://github.com/jackbisceglia/WeatherWizard"}
-          livesite={"#projects"}
-          blank={false}
         />
         <Project
           title={'Fractal Generator'}
