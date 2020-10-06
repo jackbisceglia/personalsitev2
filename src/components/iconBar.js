@@ -1,7 +1,6 @@
 import React from 'react'
 import '../global.css'
 import resume from '../images/JackBiscegliaResume.pdf'
-
 export default function IconBar(props) {
 
     const gh = require('../images/icons/logo.svg')
