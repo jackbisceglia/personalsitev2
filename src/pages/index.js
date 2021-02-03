@@ -8,7 +8,7 @@ import sweIcon from '../images/dashboard.svg';
 import sortify from '../images/ProjectImgs/sortifymock.png';
 // import trello from '';
 // import poke from '';
-import cp from '../images/ProjectImgs/cp.png';
+import cp from '../images/ProjectImgs/CP.png';
 import ss from '../images/ProjectImgs/SSMU.png';
 import trello from '../images/ProjectImgs/tcmock.png';
 import poke from '../images/ProjectImgs/pokemock.png';
