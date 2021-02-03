@@ -1,13 +1,14 @@
 .proj-card {
+    padding: 0.5rem 0;
     width: 15rem;
-    height: 14rem;
+    min-height: 15.5rem;
     margin: 5px 25px;
-    background: linear-gradient(180deg, rgb(236, 236, 236) 0%, rgba(196, 196, 196, 0) 100%);
+    background: linear-gradient(180deg, rgb(236, 236, 236) 0%, rgb(219, 219, 219, 0.6) 100%);
     box-shadow: 1px 3px 2.5px rgba(0, 0, 0, .25);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
@@ -17,6 +18,11 @@ a {
     text-decoration: none;
 }
 
+.proj-mock {
+    min-width: 6.5rem;
+
+}
+
 .proj-card h1 {
     color: #008cff;
     font-size: 1rem;
@@ -24,16 +30,6 @@ a {
     text-align: center;
     margin: 10px 0;
     transition: .25s;
-}
-
-.mockup {
-    border-radius: 10px;
-    height: 40%;
-    width: 80%;
-    margin-bottom: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .proj-card h1:hover {
@@ -61,12 +57,6 @@ a {
     font-size: .7rem;
     margin: 5px 0;
 }
-
-.proj-mock {
-    max-height: 8rem;
-    margin-top: 2rem;
-}
-
 
 @media (max-width: 26.25em) {
     .proj-card {

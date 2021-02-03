@@ -8,12 +8,10 @@ export default function Interest({title, specs, icon}) {
 
     return (
         <div className="card">
-            <div className="icon">
-                <img src={icon} alt=""/>
-            </div>
+            <img src={icon} alt=""/>
             <h3 className="card-title">{title}</h3>
             {specs.map(el => (
-                <p className="line" key={el.title} ><span>{el.name}</span>: {el.rest} </p>
+                <p className="line" key={el.title}><span>{el.name}</span>:<br/> {el.rest} </p>
             ))}
         </div>
     )

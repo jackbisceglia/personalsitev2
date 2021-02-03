@@ -8,8 +8,8 @@ import sweIcon from '../images/dashboard.svg';
 import sortify from '../images/ProjectImgs/sortifymock.png';
 // import trello from '';
 // import poke from '';
-import weather from '../images/ProjectImgs/weathermockup.png';
-import fractal from '../images/ProjectImgs/fractalmock.png';
+import cp from '../images/ProjectImgs/cp.png';
+import ss from '../images/ProjectImgs/SSMU.png';
 import trello from '../images/ProjectImgs/tcmock.png';
 import poke from '../images/ProjectImgs/pokemock.png';
 import battls from '../images/ProjectImgs/battls.png';
@@ -26,7 +26,11 @@ const IndexPage = () => (
     <div className="break"></div>
     <section id="home">
       <h1>Jack Bisceglia</h1>
-      <p>A Computer Science and Math Student at UMass Amherst</p>
+      <p>
+        A Computer Science and Math Student at UMass Amherst<br/>
+        MLH Fellow • Spring 2021 • Explorer Path
+      </p>
+      <p></p>
       <IconBar />
     </section>
 
@@ -47,15 +51,15 @@ const IndexPage = () => (
           specs={[
           {
             name : 'Front-End',
-            rest : 'React, Typescript, Javascript, Redux'
+            rest : 'React, Typescript, Javascript, Svelte'
           },
           {
             name : 'Back-End',
-            rest : 'Express, Node, Flask'
+            rest : 'Express, Spring Boot, Flask'
           },
           {
             name : 'Databases',
-            rest : 'PostgreSQL'
+            rest : 'PostgreSQL, AWS RDS'
           }
 
         ]}/>
@@ -66,11 +70,11 @@ const IndexPage = () => (
           specs={[
           {
             name : 'Langauges',
-            rest : 'Java, Python'
+            rest : 'Java, Python, Node.js'
           },
           {
             name : 'Tools',
-            rest : 'Git, '
+            rest : 'Git, PostgreSQL'
           },
           {
             name : 'Concepts',
@@ -102,6 +106,14 @@ const IndexPage = () => (
           livesite={"https://trello-clone-jackb.netlify.app/"}
           blank={true}
         />
+        <Project
+          title={'Sneaker Swipe'}
+          icon={ss}
+          description={'A React & Spring Boot app built to allow users to vote on shoes'}
+          url={"https://github.com/jackbisceglia/sneaker-swipe"}
+          livesite={"#projects"}
+          blank={false}
+        />
         <Project 
           title={'Sort-ify'}
           icon={sortify}
@@ -111,20 +123,20 @@ const IndexPage = () => (
           blank={true}
         />
         <Project
+          title={'Chess Dashboard'}
+          icon={cp}
+          description={"A Profile dashboard for Chess.com built in Svelte and Chess.com's API"}
+          url={"https://github.com/jackbisceglia/chess.comProfiler"}
+          livesite={"https://chessdashboard.netlify.app/"}
+          blank={true}
+        />
+        <Project
           title={'PokeQuick'}
           icon={poke}
           description={'A React App to display Pokemon data pulled from the PokeAPI'}
           url={"https://github.com/jackbisceglia/ReactPokemonApp"}
           livesite={"https://jackbisceglia.github.io/ReactPokemonApp/"}
           blank={true}
-        />
-        <Project
-          title={'Fractal Generator'}
-          icon={fractal}
-          description={'A recursive Java program to generate fractals and outputs to a simple UI'}
-          url={"#projects"}
-          livesite={"#projects"}
-          blank={false}
         />
       </div>
     </section>
