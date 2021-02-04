@@ -21,7 +21,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="JackBisceglia" />
+    <SEO title="JackBisceglia" image="src/images/image.png"/>
     {/* Home Section */}
     <div className="break"></div>
     <section id="home">
