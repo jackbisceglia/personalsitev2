@@ -3,6 +3,7 @@ module.exports = {
     title: `Jack Bisceglia`,
     description: `Jack Bisceglia's Software development portfolio.`,
     author: `Jack Bisceglia`,
+    image: `src/images/LinkCard.png`
   },
   plugins: [
     `gatsby-plugin-smoothscroll`,

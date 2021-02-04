@@ -21,7 +21,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="JackBisceglia" />
     {/* Home Section */}
     <div className="break"></div>
     <section id="home">
